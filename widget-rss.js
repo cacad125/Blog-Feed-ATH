@@ -13,7 +13,7 @@
     // Daftar Feed
     const x = [
         "https://blogeespss.blogspot.com/feeds/posts/default",
-        "https://www.cnbcindonesia.com/tech/rss"
+        "https://ansyahsoslo.blogspot.com/feeds/posts/default"
     ];
     const g = u => fetch("https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(u)).then(r => r.json());
     
